@@ -1,7 +1,7 @@
 ## Get Stuff
 ```lua
 --// library script private
-getgenv().namehub = "Private"
+getgenv().namehub = "Shadow.cc"
 local UserInputService = game:GetService('UserInputService')
 local LocalPlayer = game:GetService('Players').LocalPlayer
 local TweenService = game:GetService('TweenService')
