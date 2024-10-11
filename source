@@ -1,5 +1,5 @@
---// library script Shadow.cc
-getgenv().namehub = "Shadow.cc"
+--// library script private
+getgenv().namehub = "Private"
 local UserInputService = game:GetService('UserInputService')
 local LocalPlayer = game:GetService('Players').LocalPlayer
 local TweenService = game:GetService('TweenService')
@@ -1344,5 +1344,4 @@ function Library:new()
     end
     return Tab
 end
-
 return library
